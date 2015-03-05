@@ -8,7 +8,7 @@ apt-get install -y jq
 apt-get install -y unzip
 apt-get install -y curl
 apt-get install -y openjdk-8-jre
-wget http://files.nhzcrypto.org/binaries/hz_v3.8.zip
+wget http://downloads.horizonplatform.io/binaries/hz_v3.8.zip
 unzip hz*.zip 
 cd hz
 IP=$(wget -qO- ifconfig.me/ip)
